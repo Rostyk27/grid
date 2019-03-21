@@ -42,6 +42,8 @@ Because by default child of `.flex_grid` has style `flex: 1;`
 
 Based on the 12-column system.
 
+Classes: `._col_1`, `._col_2`, `._col_3`, `._col_4`, `._col_5`, `._col_6`, `._col_7`, `._col_8`, `._col_9`, `._col_10`, `._col_11`, `._col_12`
+
 ```html
 <div class="flex_grid">
     <div class="_col_4">col 1</div> <!--width: 33.3%-->
