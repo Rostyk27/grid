@@ -6,11 +6,11 @@ This grid doesn't include even a line of unnecessary code, so if you add it to y
 
 ## Installation
 
-Just take this piece of <a href="https://raw.githubusercontent.com/Rostyk27/grid/master/grid.css" target="_blank">CSS</a> and have fun building your awesome websites.
+Just take this piece of [CSS](https://raw.githubusercontent.com/Rostyk27/grid/master/grid.css) and have fun building your awesome websites.
 
 ## Demo
 
-You can visit the <a href="http://grid.codee.pro/" target="_blank">demo</a> page to see how simple and flexible this grid is.
+You can visit the [demo](http://grid.codee.pro/) page to see how simple and flexible this grid is.
 
 Demo reflects each step of usage described below.
 
