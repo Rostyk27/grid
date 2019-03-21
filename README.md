@@ -16,7 +16,7 @@ Demo reflects each step of usage described below.
 
 ## Usage
 
-##### 1. The easiest way to use it - just add the class `.flex_grid` to the parent element.
+#### 1. The easiest way to use it - just add the class `.flex_grid` to the parent element.
 
 ```html
 <div class="flex_grid">
@@ -32,13 +32,16 @@ Because by default child of `.flex_grid` has style `flex: 1;`
 
 ---
 
-##### 2. You also have an option to specify grid in a mobile-first way.
+#### 2. You also have an option to specify grid in a mobile-first way.
 * use only for desktop `.flex_grid__rwd`
 * use for desktop & tablet `.flex_grid__mob`
 
 ---
 
-##### 3. Basic customization of column width. Based on the 12-column system.
+#### 3. Basic customization of column width. 
+
+Based on the 12-column system.
+
 ```html
 <div class="flex_grid">
     <div class="_col_4">col 1</div> <!--width: 33.3%-->
@@ -49,7 +52,7 @@ Because by default child of `.flex_grid` has style `flex: 1;`
 
 ---
 
-##### 4. Easily configure the gap between columns.
+#### 4. Easily configure the gap between columns.
 
 Just assign new value to `--grid-gap` property of current `.flex_grid` container. Default gap is `20px`.
 
@@ -61,7 +64,7 @@ Just assign new value to `--grid-gap` property of current `.flex_grid` container
 
 ---
 
-##### 5. Use the flexibility of `flex: 1;`
+#### 5. Use the flexibility of `flex: 1;`
 
 There is an option to add a class only to one child element and let another fill the rest of the space.
 
@@ -76,7 +79,7 @@ It could be useful for default `article` & `aside` combination.
 
 ---
 
-##### 6. Change the column width for a tablet.
+#### 6. Change the column width for a tablet.
 
 **Note that this width will stay for mobile if you won't specify for mobile separately.*
 
@@ -103,7 +106,7 @@ Classes:
 
 ---
 
-##### 7. Change the column width for a mobile.
+#### 7. Change the column width for a mobile.
 
 **Pretty much the same logic as for tablet.*
 
@@ -129,8 +132,11 @@ Classes:
 
 **Mobile breakpoint starts on `767px`*
 
+---
+
 ## Contributing
-Pull requests are welcome. If you'll find a way to make this grid even better - let me know!
+Pull requests are welcome.  
+If you'll find a way to make this grid even better - let me know!
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
