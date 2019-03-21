@@ -55,10 +55,8 @@
 }
 [class*="flex_grid"] {
   --grid-gap: 30px;
+  @include flex-wrap(wrap);
   margin-bottom: calc(var(--grid-gap) * -1);
-  &._multi_rows {
-    @include flex-wrap(wrap);
-  }
   > * {
     @include flex(1);
     margin-bottom: calc(var(--grid-gap));

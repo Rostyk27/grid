@@ -26,11 +26,10 @@
 
 [class*="flex_grid"] {
   --grid-gap: 30px;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
   margin-bottom: calc(var(--grid-gap) * -1); }
-  [class*="flex_grid"]._multi_rows {
-    -webkit-flex-wrap: wrap;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap; }
   [class*="flex_grid"] > * {
     -webkit-box-flex: 1;
     -webkit-flex: 1;
