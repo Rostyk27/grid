@@ -25,11 +25,15 @@
       margin: 0 calc(var(--grid-gap)/2); } }
 
 [class*="flex_grid"] {
-  --grid-gap: 30px;
+  --grid-gap: 20px;
   -webkit-flex-wrap: wrap;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   margin-bottom: calc(var(--grid-gap) * -1); }
+  [class*="flex_grid"]._nowrap {
+    -webkit-flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap; }
   [class*="flex_grid"] > * {
     -webkit-box-flex: 1;
     -webkit-flex: 1;

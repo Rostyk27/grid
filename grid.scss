@@ -54,9 +54,10 @@
   }
 }
 [class*="flex_grid"] {
-  --grid-gap: 30px;
+  --grid-gap: 20px;
   @include flex-wrap(wrap);
   margin-bottom: calc(var(--grid-gap) * -1);
+  &._nowrap {@include flex-wrap(nowrap)}
   > * {
     @include flex(1);
     margin-bottom: calc(var(--grid-gap));
