@@ -10,7 +10,7 @@ Just take this piece of [CSS](https://raw.githubusercontent.com/Rostyk27/grid/ma
 
 ## Demo
 
-You can visit the [demo](http://grid.codee.pro/) page to see how simple and flexible this grid is.
+You can visit the [demo](https://grid.rostyk.dev/) page to see how simple and flexible this grid is.
 
 Demo reflects each step of usage described below.
 
